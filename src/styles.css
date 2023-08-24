@@ -1,0 +1,99 @@
+/* Reset default margin and font */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: #111;
+  color: #fff;
+}
+
+/* Header styles */
+header {
+  background-color: #222;
+  padding: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adjusted spacing */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+nav a {
+  color: cyan;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+/* Hero section styles */
+.hero {
+  background-color: black; /* Background color instead of an image */
+  text-align: center;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 10px;
+}
+
+/* Form styles */
+.new-item-form {
+  padding: 20px;
+  background-color: #333;
+  margin-top: 20px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.form-row label {
+  color: #fff;
+}
+
+.form-row input[type="text"] {
+  padding: 5px;
+}
+
+.form-row button {
+  padding: 5px 10px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Task list styles */
+.task-list {
+  padding: 20px;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.task input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #222;
+  text-align: center;
+  padding: 10px;
+  font-size: 12px;
+}
+
+footer p {
+  color: #fff;
+}
